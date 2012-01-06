@@ -1432,14 +1432,38 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   text-decoration: none;
 }
 .topbar div > ul a:hover, .nav a:hover {
-  background-color: #821d39;
-  background-color: rgba(167, 33, 40, 0.76);
+  background-color: #a72128;
+  background-color: #a72128;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e14c2b), to(#a72128));
+  background-image: -moz-linear-gradient(top, #e14c2b, #a72128);
+  background-image: -ms-linear-gradient(top, #e14c2b, #a72128);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e14c2b), color-stop(100%, #a72128));
+  background-image: -webkit-linear-gradient(top, #e14c2b, #a72128);
+  background-image: -o-linear-gradient(top, #e14c2b, #a72128);
+  background-image: linear-gradient(top, #e14c2b, #a72128);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e14c2b', endColorstr='#a72128', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #a72128 #a72128 #671419;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   color: #ffffff;
   text-decoration: none;
 }
 .topbar div > ul .active > a, .nav .active > a {
   background-color: #58376c;
-  background-color: rgba(88, 55, 108, 0.5);
+  background-color: #372243;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#58376c), to(#372243));
+  background-image: -moz-linear-gradient(top, #58376c, #372243);
+  background-image: -ms-linear-gradient(top, #58376c, #372243);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #58376c), color-stop(100%, #372243));
+  background-image: -webkit-linear-gradient(top, #58376c, #372243);
+  background-image: -o-linear-gradient(top, #58376c, #372243);
+  background-image: linear-gradient(top, #58376c, #372243);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58376c', endColorstr='#372243', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #372243 #372243 #0d0810;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 .topbar div > ul.secondary-nav, .nav.secondary-nav {
   float: right;

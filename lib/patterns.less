@@ -146,15 +146,15 @@
     line-height: 19px;
     text-decoration: none;
     &:hover {
-      background-color: @wine;
-      background-color: fadeout(@red, 24%);
+      background-color: @red;
+      .gradientBar(@orange, @red);
       color: @white;
       text-decoration: none;
     }
   }
   .active > a {
     background-color: lighten(@purple, 12%);
-    background-color: fadeout(lighten(@purple, 12%), 50%);
+    .gradientBar(lighten(@purple, 12%), @purple);
   }
 
   // Secondary (floated right) nav in topbar
